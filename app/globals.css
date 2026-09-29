@@ -27,3 +27,6 @@
 .shopping-list .shopping-item:last-child{border-bottom:0}
 .shopping-list .shopping-item .shopping-toggle{width:auto;flex:1;min-width:0;border:0;border-bottom:0;padding:17px}
 .shopping-list .shopping-item .shopping-remove{width:52px;min-width:52px;flex:none;padding:0;border:0;border-left:1px solid var(--line);border-bottom:0;display:grid;place-items:center;text-align:center}
+
+/* The old hero artwork was missing from the repository, leaving a dead black gap. */
+.hero-image{background:linear-gradient(90deg,#0c0c0d 0%,transparent 18%),url('/recipe-images/air-fryer-bbq-meatball-subs.webp') center/cover}
