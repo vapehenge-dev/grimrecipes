@@ -30,3 +30,6 @@
 
 /* Restore the hero photo: the original file was absent after the rollback. */
 .hero-image{background:linear-gradient(90deg,#0c0c0d 0%,transparent 18%),url('/recipe-images/air-fryer-bbq-meatball-subs.webp') center/cover}
+
+/* Show the whole finished dish rather than cropping a portrait image in half. */
+.food-art img,.detail-art img{object-fit:contain;object-position:center;background:#0c0c0d}
