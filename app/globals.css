@@ -52,3 +52,6 @@
 @media(max-width:780px){.hero-copy{padding-top:16px;padding-bottom:24px}}
 
 .hero-copy>.eyebrow{display:none}
+
+/* Feather the exterior of the original main logo, leaving the wording and mascot intact. */
+.hero-brand img{border-radius:0;mask-image:linear-gradient(to bottom,transparent,#000 2%,#000 93%,transparent 97%),linear-gradient(to right,transparent,#000 7%,#000 93%,transparent);mask-composite:intersect}
