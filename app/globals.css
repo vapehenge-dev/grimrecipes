@@ -52,3 +52,6 @@
 @media(max-width:780px){.hero-copy{padding-top:16px;padding-bottom:24px}}
 
 .hero-copy>.eyebrow{display:none}
+
+/* Refine only the large main logo artwork; preserve its size, position and all other logos. */
+.hero-brand img{content:url("/branding/attitudeyrecipes-chef-rounded.webp");border-radius:0;mask-image:none}
