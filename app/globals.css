@@ -43,5 +43,12 @@
 @media(prefers-reduced-motion:reduce){.brand-loading img{animation:none}}
 
 /* The selected 01 chef logo replaces the hero headline, centred above its existing content. */
-.hero-brand{grid-column:1 / -1;display:flex;justify-content:center;align-items:center;padding:28px 20px 12px}
-.hero-brand img{display:block;width:clamp(260px,32vw,380px);max-width:100%;height:auto;object-fit:contain}
+.hero-brand{grid-column:1 / -1;display:flex;justify-content:center;align-items:center;padding:20px 20px 0}
+.hero-brand img{display:block;width:clamp(260px,32vw,380px);max-width:100%;height:auto;object-fit:contain;border-radius:18%;mask-image:linear-gradient(to bottom,transparent,#000 3%,#000 97%,transparent),linear-gradient(to right,transparent,#000 3%,#000 97%,transparent);mask-composite:intersect}
+
+/* Remove the repeated tagline and bring the existing copy closer to the logo. */
+.hero-copy{padding-top:18px;padding-bottom:28px;justify-content:flex-start}
+.hero-copy>p{margin-top:0}
+@media(max-width:780px){.hero-copy{padding-top:16px;padding-bottom:24px}}
+
+.hero-copy>.eyebrow{display:none}
