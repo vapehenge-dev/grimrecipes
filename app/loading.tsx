@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="brand-loading" role="status" aria-label="Loading recipes"><img src="/branding/attitudeyrecipes-wok.webp" alt="" aria-hidden="true" width={144} height={144}/></div>}
