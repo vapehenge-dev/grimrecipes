@@ -55,8 +55,3 @@
 
 /* Feather the exterior of the original main logo, leaving the wording and mascot intact. */
 .hero-brand img{border-radius:0;mask-image:linear-gradient(to bottom,transparent,#000 2%,#000 93%,transparent 97%),linear-gradient(to right,transparent,#000 7%,#000 93%,transparent);mask-composite:intersect}
-
-/* Extend only the main logo's side splatters; original logo pixels and layout remain unchanged. */
-.hero-brand{position:relative;isolation:isolate;--logo-size:clamp(260px,32vw,380px)}
-.hero-brand img{position:relative;z-index:1;mask-image:none;border-radius:0}
-.hero-brand::before{content:"";position:absolute;z-index:0;pointer-events:none;left:50%;top:calc(50% + 10px);transform:translate(-50%,-50%);width:min(calc(var(--logo-size)*1.25),calc(100% - 24px));height:var(--logo-size);background:url("/branding/logo-side-splatters.webp") center/100% 100% no-repeat;opacity:.7}
