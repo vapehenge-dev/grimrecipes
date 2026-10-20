@@ -55,3 +55,5 @@
 
 /* Feather the exterior of the original main logo, leaving the wording and mascot intact. */
 .hero-brand img{border-radius:0;mask-image:linear-gradient(to bottom,transparent,#000 2%,#000 93%,transparent 97%),linear-gradient(to right,transparent,#000 7%,#000 93%,transparent);mask-composite:intersect}
+
+.weekly-settings{margin:0 0 24px;padding:16px;border:1px solid var(--line);background:var(--panel);border-radius:3px}.weekly-settings summary{cursor:pointer;font-weight:800}.weekly-settings label{display:flex;align-items:center;gap:12px;margin-top:16px;cursor:pointer;line-height:1.4}.weekly-settings input{width:22px;height:22px;flex:none;accent-color:var(--orange)}.weekly-settings p{max-width:650px;margin:12px 0 0;color:var(--muted);font-size:14px;line-height:1.5}
